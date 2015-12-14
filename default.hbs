@@ -28,9 +28,28 @@
 						{{else}}
 						<span class="name">{{@blog.title}}</span>
 						{{/if}}
-
 					</a>
 				</div>
+
+				<div class="nav-logo">
+                    <a href="/tag/article/"><span class="name">文章</span></a>
+                </div>
+				<div class="nav-logo">
+					<a href="/tag/code/"><span class="name">代码</span></a>
+                </div>
+				<div class="nav-logo">
+					<a href="/tag/program/"> <span class="name">技术</span> </a>
+                </div>
+				<div class="nav-logo">
+					<a href="/tag/news/"> <span class="name">新闻</span> </a>
+                </div>
+				<div class="nav-logo">
+					<a href="/tag/resource/"> <span class="name">资源</span> </a>
+                </div>
+				<div class="nav-logo">
+					<a href="/tag/funny/"> <span class="name">放松一下</span> </a>
+                </div>
+
 				<div class="nav-menu">
 					<a class="rss" href="{{@blog.url}}/rss/"><i class="icon-rss"></i></a>
 					{{#if @blog.navigation}}
